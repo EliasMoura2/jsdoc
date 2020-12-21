@@ -11,7 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "clean-jsdoc-theme": "^3.0.3",
-    "jsdoc": "^3.6.6"
+    "express": "^4.17.1",
+    "jsdoc": "^3.6.6",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "jsdoc-api-plugin": "^0.1.1"

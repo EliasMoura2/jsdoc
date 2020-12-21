@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: index.js</title>
+    <title>JSDoc: Source: api.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: index.js</h1>
+    <h1 class="page-title">Source: api.js</h1>
 
     
 
@@ -26,27 +26,65 @@
     
     <section>
         <article>
-            <pre class="prettyprint source linenums"><code>/*
-  // @ts-check
-*/
-// to check data types
+            <pre class="prettyprint source linenums"><code>const express = require('express');
+const morgan = require('morgan');
+
+const app = express()
+app.use(morgan('dev'))
+app.use(express.urlencoded({ extended: false }))
+app.use(express.json())
+
 
 /**
- * @file index.js the main file
- * @author Elias Moura
- * @see &lt;a href="https://github.com/EliasMoura2"> Github Elias Moura&lt;/a>
+ * Index route
+ *@name Index
+ *@path {GET} /api/v1/
  */
+app.get('/api/v1/', (req, res) => {
+  res.send('Welcome!')
+})
 
 /**
- * 
- * This is the fullname of the user
- * @type {string}
- * 
+ * User route GET
+ * @name Users
+ * @path {GET} /api/v1/users
  */
-const fullName = 'Elias Moura'
-// si ponemos un valor numerico => type 'number' is not assignable to type 'string'
+app.get('/users', (req, res) => {
+  res.send('Welcome!')
+})
 
-</code></pre>
+/**
+ * User route POST
+ * @name Users Post
+ * @path {POST} /api/v1/users
+ */
+app.post('/users', (req, res) => {
+  res.send('Welcome!')
+})
+
+/**
+ * User route PUT
+ * @name Users PUT
+ * @path {PUT} /api/v1/users
+ */
+app.put('/users/:id', (req, res) => {
+  res.send('Welcome!')
+})
+
+/**
+ * User route DELETE
+ * @name Users DELETE
+ * @path {DELETE} /api/v1/users
+ */
+app.delete('/users/:id', (req, res) => {
+  res.send('Welcome!')
+})
+
+// app.get('/todos', (req, res) => {
+//   res.send('Welcome!')
+// })
+
+module.exports = app </code></pre>
         </article>
     </section>
 
