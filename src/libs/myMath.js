@@ -1,10 +1,12 @@
 //@ts-check
 
 /**
- * My math library
+ * My math library - Learn more {@tutorial first-tutorial}
+ * @tutorial second-tutorial
  * @module myMath
  */
 //@modules we separate the libraries in modules that we can use in other projects
+// @tutorial link to a tutorial
 
 /**
  * Add numbers two numbers 
