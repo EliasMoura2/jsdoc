@@ -12,7 +12,9 @@
   "opts":{
     "recurse": "true",
     "destination": "./docs",
+    //"template": "./template",
     // "template": "./node_modules/clean-jsdoc-theme",
-    "tutorials": "./tutorials"
+    "tutorials": "./tutorials",
+    "readme": "./README.md"
   }
 }
