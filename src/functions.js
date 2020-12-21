@@ -1,6 +1,6 @@
 //@ts-check
 
-// normal funciton
+// normal function
 
 /**
  * Add numbers two numbers and return a Number
