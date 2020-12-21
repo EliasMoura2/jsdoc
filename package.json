@@ -12,5 +12,8 @@
   "dependencies": {
     "clean-jsdoc-theme": "^3.0.3",
     "jsdoc": "^3.6.6"
+  },
+  "devDependencies": {
+    "jsdoc-api-plugin": "^0.1.1"
   }
 }
