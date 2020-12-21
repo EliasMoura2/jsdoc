@@ -22,3 +22,9 @@ const myAdd = (x, y) => x + y
  * @returns {Number} Rest of x and y
  */
 const mySubstract = (x, y) => x - y
+
+
+module.exports = {
+  myAdd,
+  mySubstract
+}

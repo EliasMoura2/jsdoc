@@ -10,6 +10,7 @@
   "author": "Elias Moura",
   "license": "ISC",
   "dependencies": {
+    "clean-jsdoc-theme": "^3.0.3",
     "jsdoc": "^3.6.6"
   }
 }

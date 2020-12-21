@@ -42,6 +42,9 @@ class Programmer{
  * Know more in {@link Programmer}
  */
 const programmer1 = new Programmer ({id: 1, firstName: 'Elias', lastName: 'Moura', age: 28, isActive: true}, 'Javascript')
+/**
+ * Know more in {@link Programmer}
+ */
 const programmer2 = new Programmer ({id: 2, firstName: 'Rodrigo', lastName: 'Moura', age: 28, isActive: true}, 'PHP')
 
 console.log(programmer1.getFullName(), programmer1.language)

@@ -1,4 +1,5 @@
 //@ts-check
+
 /**
  * Person Object
  * @type {{id: Number, firstName: string, lastName: string, age: Number}}
