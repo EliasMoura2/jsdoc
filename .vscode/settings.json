@@ -1,0 +1,5 @@
+{
+  "javascript.implicitProjectCondig.checkJS": true,
+  // add los checks de typescript sin que tengamos
+  // que escribirlos en los archivos
+}

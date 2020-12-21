@@ -1,0 +1,15 @@
+{
+  "name": "jsdoc-tuto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "author": "Elias Moura",
+  "license": "ISC",
+  "dependencies": {
+    "jsdoc": "^3.6.6"
+  }
+}
